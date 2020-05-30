@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class BookDropDown extends Component {
+class BookDropDownMenu extends Component {
   static propTypes = {
     book: PropTypes.object.isRequired,
     books: PropTypes.array.isRequired,
@@ -41,4 +41,4 @@ class BookDropDown extends Component {
   }
 }
 
-export default BookDropDown;
+export default BookDropDownMenu;

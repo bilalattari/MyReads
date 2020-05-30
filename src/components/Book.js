@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BookDropDown from './BookDropDown';
+import BookDropDownMenu from './BookDropDown';
 import noImage from '../assets/images/no-cover-image.png';
 
 const Book = props => {
@@ -21,7 +21,7 @@ const Book = props => {
             className="book-cover"
             style={{ backgroundImage: `url(${coverImg})` }}
           />
-          <BookDropDown book={book} books={books} changeShelf={changeShelf} />
+          <BookDropDownMenu book={book} books={books} changeShelf={changeShelf} />
         </div>
         <div className="book-title">{title}</div>
         {/* Check for authors and render each on separate line if exist*/

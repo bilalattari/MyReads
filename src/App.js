@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import AppRouter from './config/Router'
+import MainRouter from './config/Router'
 function App() {
   return (
     <BrowserRouter>
-      <AppRouter />
+      <MainRouter />
     </BrowserRouter> 
   )
 }

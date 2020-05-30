@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import * as BooksAPI from './BooksAPI';
-import BookList from '../container/BookList';
+import BookList from '../containers/BooksList';
 import { Link } from 'react-router-dom';
-import Search from '../container/Search';
+import Search from '../containers/Search';
 import NotFound from '../components/NotFound';
 import '../css/style.css';
 
-class AppRouter extends React.Component {
+class MainRouter extends React.Component {
   state = { books: [] };
 
   componentDidMount() {
@@ -48,7 +48,7 @@ class AppRouter extends React.Component {
             render={() => (
               <div className="list-books">
                 <div className="list-books-title">
-                  <h1>MyReads</h1>
+                  <h1>My Book Reads App</h1>
                 </div>
                 <BookList books={books} changeShelf={this.changeShelf} />
                 <div className="open-search">
@@ -64,4 +64,4 @@ class AppRouter extends React.Component {
   }
 }
 
-export default AppRouter;
+export default MainRouter;

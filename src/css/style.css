@@ -16,7 +16,7 @@ body,
 /* main page */
 
 .list-books-title {
-  background: brown;
+  background: grey;
   padding: 10px 0;
   text-align: center;
 }
@@ -58,7 +58,7 @@ body,
 }
 
 .open-search a {
-  background: brown;
+  background: grey;
   background-image: url('../icons/add.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ body,
 }
 
 .search-books-input-wrapper {
-  background: brown;
+  background: grey;
   flex: 1;
 }
 
@@ -97,7 +97,7 @@ body,
 }
 
 .close-search {
-  background: brown;
+  background: grey;
   background-image: url('../icons/arrow-back.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ body,
 }
 
 .book-shelf-changer {
-  background: brown;
+  background: grey;
   background-image: url('../icons/arrow-drop-down.svg');
   background-position: center;
   background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BookShelf from '../components/BookShelf';
+import BooksShelf from '../components/BookShelf';
 
 const BookList = props => {
   const { books, changeShelf } = props;
@@ -18,7 +18,7 @@ const BookList = props => {
           <div className="bookshelf" key={index}>
             <h2 className="bookshelf-title">{shelf.title}</h2>
             <div className="bookshelf-books">
-              <BookShelf books={shelfBooks} changeShelf={changeShelf} />
+              <BooksShelf books={shelfBooks} changeShelf={changeShelf} />
             </div>
           </div>
         );
